@@ -25,7 +25,7 @@ corner2.CornerRadius = UDim.new(0.6, 0)
 maingui.ResetOnSpawn = false
 maingui.Name = "Cheat game"
 frame.Size = UDim2.new(0.15, 0, 0.15, 0)
-frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 frame.Position = UDim2.new(0.01,0,0.84,0)
 textlabel.Size = UDim2.new(1, 0, 0.5, 0)
 button.TextScaled = true
@@ -35,7 +35,7 @@ textlabel.Text = "MinCity"
 textlabel.TextScaled = true
 textlabel.BackgroundTransparency = 1
 button.BackgroundTransparency = 0.7
-button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 
 local btexts = {
     [true] = "Off",
